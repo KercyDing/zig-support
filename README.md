@@ -26,6 +26,10 @@ You can also make the badge clickable, for example by linking it to the Zig down
 
 The final `else: no` row makes it explicit that versions not listed above are unsupported.
 
+## Self-hosting
+
+The public endpoint is hosted on Cloudflare Workers on a best-effort basis. Self-hosting is recommended for projects that need reliable availability.
+
 ## License
 
 [MIT](LICENSE)
