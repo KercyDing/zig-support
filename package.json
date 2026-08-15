@@ -1,0 +1,23 @@
+{
+  "name": "zig-support",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "check": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "wrangler": "^4.123.0"
+  },
+  "allowScripts": {
+    "esbuild@0.27.3": true,
+    "esbuild@0.28.1": true,
+    "workerd@1.20260310.1": true,
+    "workerd@1.20260811.1": true,
+    "sharp@0.34.5": true,
+    "sharp@0.35.2": true
+  }
+}
